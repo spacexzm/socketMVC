@@ -1,0 +1,11 @@
+.container {
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+.button-success {
+    background: rgb(28, 184, 65);
+    color: white;
+    border-radius: 2px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}

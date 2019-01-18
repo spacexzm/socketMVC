@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>吃瓜主页</title>
+    <link rel="stylesheet" href="/static?file=pure-min.css">
+    <link rel="stylesheet" href="/static?file=style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Hello {{ username }}</h1>
+    <h3>请选择需要的功能：</h3>
+    {#<a href="/todo/index">Todo</a>
+    <a href="/weibo/index">Weibo</a>
+
+    <a href="/user/register/view">Register</a>
+    <a href="/user/login/view">Login</a>#}
+    <li class="pure-menu-item"><a href="/todo/index" class="pure-menu-link">Todo</a></li>
+    <li class="pure-menu-item"><a href="/weibo/index" class="pure-menu-link">Weibo</a></li>
+    <h3>使用请登录：</h3>
+    <div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="/user/login/view" class="pure-menu-link">登录</a></li>
+            <li class="pure-menu-item"><a href="/user/register/view" class="pure-menu-link">注册</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
